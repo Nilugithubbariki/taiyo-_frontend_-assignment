@@ -1,0 +1,29 @@
+.headingStyle:hover {
+  text-shadow: 1px 2px red;
+  box-shadow: 3px 5px green, 5px 6px red;
+}
+.buttonStyle {
+  background-color: red;
+  color: white;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1s;
+}
+.buttonStyle:hover {
+  background-color: green;
+  color: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+}
+.boxStyle {
+  border-radius: 5px;
+}
+.backStyle {
+  cursor: pointer;
+}
+.saveStyle:hover {
+  background-color: green;
+  color: white;
+}

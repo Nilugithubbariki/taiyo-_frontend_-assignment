@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./contact.css";
 import {
   Box,
   Button,
@@ -186,7 +187,9 @@ const Contacts = () => {
           <Box>
             {flag ? (
               <form onSubmit={handleSubmit} id="form">
-                <Heading onClick={onClose}>X</Heading>
+                <Heading onClick={onClose} className="backStyle">
+                  Back
+                </Heading>
                 <label>First Name:</label>
                 <input
                   type="text"
@@ -238,7 +241,7 @@ const Contacts = () => {
               width={"50%"}
               border={"1px solid gray"}
             >
-              <Heading>
+              <Heading className="headingStyle">
                 No Contact Found Please add contact from Create Contact Button
               </Heading>
             </Box>
